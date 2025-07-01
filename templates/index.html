@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Sakshi Saini</h1>
+    <p>Highly motivated computer science graduate seeking an entry-level position to apply theoretical knowledge of programming languages, data structures, and algorithms in a practical setting and continue to learn from experienced professionals.</p>
+
+    <h2>Skills</h2>
+    <ul>
+        <li><strong>Programming Languages:</strong> Python, C, C++, SQL</li>
+        <li><strong>Libraries & Tools:</strong> NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn</li>
+        <li><strong>Web Development:</strong> Flask, Django, HTML</li>
+        <li><strong>Tools:</strong> VS Code, PyCharm, GitHub, Excel, MySQL</li>
+    </ul>
+
+    <h2>Projects</h2>
+
+    <h3>E-COMMERCE WEBSITE</h3>
+    <p>Built an online store using Django with product browsing, user authentication, cart, checkout, and payment integration.</p>
+
+    <h3>INTERNAL TRIP DURATION PREDICTION SYSTEM</h3>
+    <p>Predicted internal trip durations using ML by analyzing trip data and traffic patterns. Used Python, SQL, and Scikit-learn for modeling.</p>
+
+    <h3>MOVIE RECOMMENDATION SYSTEM</h3>
+    <p>Developed a system that recommends movies based on user preferences using content-based and collaborative filtering. Built with Python, Pandas, Streamlit, and SQL.</p>
+
+    <a href="{{ url_for('contact') }}">Contact Me</a>
+</body>
+</html>
